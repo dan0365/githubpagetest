@@ -1,5 +1,5 @@
 <?php
-$conexion = new mysqli("sql204.infinityfree.com", "if0_39111984", "Alexjr29", "if0_39111984_bdusuarios");
+$conexion = new mysqli("localhost", "root", "", "bdusuarios");
 
 if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
